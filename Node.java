@@ -1,10 +1,11 @@
 public class Node {
-    int value;
+    int data;
     Node left;
     Node right;
 
-    public Node(int value) {
-        this.value = value;
+    //Constructor
+    public Node(int data){
+        this.data = data;
         this.left = null;
         this.right = null;
     }

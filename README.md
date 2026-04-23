@@ -28,9 +28,9 @@ Metode default yang dipakai di kelas `AdvancedNode`.
   ```java
   private void printInOrder(Node node){
       if(node != null){
-          printInOrder(node.left);        // Kiri
-          System.out.println(node.value); // Root
-          printInOrder(node.right);       // Kanan
+          printInOrder(node.left);        
+          System.out.println(node.value); 
+          printInOrder(node.right);       
       }
   }
   ```
@@ -42,9 +42,9 @@ Metode default yang dipakai di kelas `AdvancedNode`.
   ```java
   private void printPreOrder(Node node){
       if(node != null){
-          System.out.println(node.value); // Root
-          printPreOrder(node.left);       // Kiri
-          printPreOrder(node.right);      // Kanan
+          System.out.println(node.value); 
+          printPreOrder(node.left);      
+          printPreOrder(node.right);      
       }
   }
   ```
@@ -56,9 +56,9 @@ Metode default yang dipakai di kelas `AdvancedNode`.
   ```java
   private void printPostOrder(Node node){
       if(node != null){
-          printPostOrder(node.left);        // Kiri
-          printPostOrder(node.right);       // Kanan
-          System.out.println(node.value);   // Root
+          printPostOrder(node.left);        
+          printPostOrder(node.right);       
+          System.out.println(node.value);   
       }
   }
   ```
